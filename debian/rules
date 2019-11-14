@@ -1,0 +1,35 @@
+#!/usr/bin/make -f
+#
+# debian/rules for Vyatta linux-firmware
+#  based on Ubuntu package
+# Use this however you want, just give credit where credit is due.
+#
+# Copyright (c) 2008 Ben Collins <bcollins@ubuntu.com>
+#
+#
+
+export LC_ALL=C
+export SHELL=/bin/bash -e
+
+%:
+	dh $@
+
+firm_dir = $(CURDIR)/debian/linux-firmware/lib/firmware
+doc_dir = $(CURDIR)/debian/linux-firmware/usr/share/doc/linux-firmware
+license_dir = $(doc_dir)/licenses
+nic_firm_dir = $(CURDIR)/debian/nic-firmware/lib/firmware
+scsi_firm_dir = $(CURDIR)/debian/scsi-firmware/lib/firmware
+
+override_dh_auto_install-indep:
+	install -d $(firm_dir)
+
+	rsync -a --include-from=debian/firmware-whitelist --exclude='*' * $(firm_dir)
+
+	install -d $(doc_dir)
+	cp WHENCE $(doc_dir)/README
+
+	install -d $(license_dir)
+	cp LICEN[CS]E* GPL-3 $(license_dir)
+	find $(license_dir) -type f -exec gzip {} \;
+
+override_dh_auto_test:

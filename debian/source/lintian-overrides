@@ -1,0 +1,2 @@
+# we don't use non-free nor autobuild
+linux-firmware source: source-only-upload-to-non-free-without-autobuild

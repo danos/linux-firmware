@@ -1,0 +1,15 @@
+Source: linux-firmware
+Section: non-free/misc
+Priority: optional
+Maintainer: Vyatta Package Maintainers <DL-vyatta-help@att.com>
+Standards-Version: 3.6.1
+Build-Depends: debhelper (>= 9), rsync
+
+Package: linux-firmware
+Architecture: all
+Depends: ${misc:Depends},
+Provides: firmware-linux
+Replaces: firmware-linux-free, firmware-linux-nonfree
+Conflicts: firmware-linux-free, firmware-linux-nonfree, firmware-realtek, firmware-bnx2
+Description: Firmware for Linux kernel drivers
+ This package provides firmware used by Linux kernel drivers.
