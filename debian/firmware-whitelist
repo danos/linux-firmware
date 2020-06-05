@@ -71,8 +71,13 @@ cxgb3/t3b_psram-1.1.0.bin
 cxgb3/t3c_psram-1.1.0.bin
 cxgb3/t3fw-7.12.0.bin
 cxgb4
-cxgb4/t4fw.bin
-cxgb4/t5fw.bin
+cxgb4/t4fw-1.14.4.0.bin
+cxgb4/t4fw-1.15.37.0.bin
+cxgb4/t4fw-1.24.14.0.bin
+cxgb4/t5fw-1.14.4.0.bin
+cxgb4/t5fw-1.15.37.0.bin
+cxgb4/t5fw-1.24.14.0.bin
+cxgb4/t6fw-1.24.14.0.bin
 e100
 e100/d101m_ucode.bin
 e100/d101s_ucode.bin
@@ -126,7 +131,6 @@ myri10ge_ethp_z8e.dat
 myri10ge_eth_z8e.dat
 myri10ge_rss_ethp_z8e.dat
 myri10ge_rss_eth_z8e.dat
-phanfw.bin
 qat_895xcc.bin
 ql2100_fw.bin
 ql2200_fw.bin
