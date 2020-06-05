@@ -14,16 +14,11 @@ export SHELL=/bin/bash -e
 %:
 	dh $@
 
-firm_dir = $(CURDIR)/debian/linux-firmware/lib/firmware
 doc_dir = $(CURDIR)/debian/linux-firmware/usr/share/doc/linux-firmware
 license_dir = $(doc_dir)/licenses
-nic_firm_dir = $(CURDIR)/debian/nic-firmware/lib/firmware
-scsi_firm_dir = $(CURDIR)/debian/scsi-firmware/lib/firmware
 
 override_dh_auto_install-indep:
-	install -d $(firm_dir)
-
-	rsync -a --include-from=debian/firmware-whitelist --exclude='*' * $(firm_dir)
+	./copy-firmware.sh lib/firmware
 
 	install -d $(doc_dir)
 	cp WHENCE $(doc_dir)/README
