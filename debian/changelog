@@ -1,3 +1,1184 @@
+linux-firmware (20200519.0) unstable; urgency=medium
+
+  [ Xinming Hu ]
+  * linux-firmware: update Marvell PCIe-USB8897-A2 firmware image
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: update Marvell PCIe-USB8997 firmware image
+
+  [ Ganesh Goudar ]
+  * cxgb4: update firmware to revision 1.16.63.0
+
+  [ Kalle Valo ]
+  * ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00051-QCARMSWP-1
+  * ath10k: QCA6174 hw3.0: update board-2.bin
+  * Revert "ath10k: QCA988X hw2.0: update firmware to 10.2.4.70.63-2"
+
+  [ Ben Hutchings ]
+  * WHENCE: Fix syntax error for iwlwifi-8265-31.ucode entry
+  * WHENCE: Add new radeon firmware
+  * WHENCE: Add new qed firmware
+
+  [ Anusha Srivatsa ]
+  * linux-firmware/i915: Add Geminilake DMC version 1.04
+  * linux-firmware/i915: Add Cannonlake DMC version 1.06
+  * linux-firmware: GuC firmware for Skylake v9.33
+  * linux-firmware: GuC firmware for Broxton v9.29
+  * linux-firmware: GuC firmware for kabylake v9.39
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: update Marvell PCIe-USB8997 firmware image
+
+  [ Anusha Srivatsa ]
+  * linux-firmware: DMC firmware for kabylake v1.04
+
+  [ Luca Coelho ]
+  * iwlwifi: update firmwares for 3160, 3168, 7265D, 8000C and 8265
+  * iwlwifi: update firmwares for 3160, 3168, 7260, 7265 and 7265D
+  * iwlwifi: add new firmware version 34 for 8000C and 8265
+  * iwlwifi: add firmware version 33 for new 9000 series
+
+  [ Pradeep Tewani ]
+  * linux-firmware: intel: Update Geminilake audio firmware
+
+  [ Felix Manlunas ]
+  * linux-firmware: liquidio: update firmware to v1.7.0
+
+  [ Luca Coelho ]
+  * iwlwifi: add firmware version 34 for new 9000 series
+
+  [ Nicolas Dechesne ]
+  * qcom: add firmware files for Adreno a530
+  * qcom: add venus firmware files for v4.2
+
+  [ Rahul Verma ]
+  * qed: Add firmware 8.33.1.0
+
+  [ Alex Deucher ]
+  * amdgpu: add new CP firmware for polaris chips
+
+  [ Dean Anderson ]
+  * s2255drv: f2255usb: firmware version 1.2.8
+
+  [ Ben Hutchings ]
+  * WHENCE: Fix typo in entry for iwlwifi-8265-34.ucode
+
+  [ Shalom Toledo ]
+  * WHENCE: Add missing entry for mlxsw_spectrum firmware
+  * Mellanox: Add new mlxsw_spectrum firmware 13.1530.152
+
+  [ Arend van Spriel ]
+  * brcm: update firmware for bcm4339
+  * brcm: introduce firmware for bcm43430 revision 0
+  * brcm: update firmware for bcm4354
+  * brcm: update firmware for bcm4356
+  * brcm: update firmware for bcm4358
+
+  [ Anusha Srivatsa ]
+  * linux-firmware: DMC firmware for skylake v1.27
+
+  [ Louis Peens ]
+  * nfp: update firmware for Agilio CX SmartNICs
+  * nfp: change firmware directory layout
+  * nfp: add firmware for tc-flower
+
+  [ Vinod Koul ]
+  * linux-firmware: intel: Add Cannonlake audio firmware
+
+  [ Alex Deucher ]
+  * amdgpu: update vega10 vce firmware
+  * amdgpu: add firmware for Raven
+
+  [ Tedd Ho-Jeong An ]
+  * linux-firmware: Add firmware file for Intel Bluetooth 9560
+  * linux-firmware: Add firmware file for Intel Bluetooth 9260
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 8265
+  * linux-firmware: Update firmware patch for Intel Bluetooth 8260
+
+  [ Kyle McMartin ]
+  * Revert commits a42f895, c113d33, 041aff8, 73d13b5
+
+  [ Tedd Ho-Jeong An ]
+  * linux-firmware: Add firmware file for Intel Bluetooth 9560
+  * linux-firmware: Add firmware file for Intel Bluetooth 9260
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 8265
+  * linux-firmware: Update firmware patch for Intel Bluetooth 8260
+
+  [ Chi-Hsien Lin ]
+  * brcm: add CYW4373 firmwares and Cypress license file
+
+  [ Felix Manlunas ]
+  * linux-firmware: liquidio: add v1.7.0 vswitch firmware
+
+  [ Gourav Samaiya ]
+  * nvidia: add GP108 signed firmware
+
+  [ Anusha Srivatsa ]
+  * linux-firmware: DMC firmware for cannonlake v1.07
+
+  [ Larry Finger ]
+  * rtlwifi: rtl8723de: Add firmware for new driver/device
+
+  [ Guy Mishol ]
+  * wl127x/wl128x: update firmwares
+  * wl18xx: update firmware file 8.9.0.0.76
+
+  [ Pradeep Tewani ]
+  * linux-firmware: intel: Update Geminilake audio firmware
+
+  [ Xinming Hu ]
+  * linux-firmware: update Marvell PCIe-USB8897/8997 firmware image to add WPA2 vulnerability fix
+
+  [ Ganesh Goudar ]
+  * cxgb4: update firmware to revision 1.17.14.0
+
+  [ pochun.lin ]
+  * mediatek: update MT8173 VPU firmware to 1.0.8 [decoder h264] Fix h264 decoder output delay for some low latency bitstreams
+
+  [ Alex Deucher ]
+  * amdgpu: update vce and uvd firmware for Vega10
+  * amdgpu: update vcn firmware for raven
+  * amdgpu: update vce firmware for Fiji
+  * amdgpu: update uvd firmware for polaris asics
+
+  [ Guneshwor Singh ]
+  * linux-firmware: intel: Update Kabylake audio firmware
+
+  [ Guy Mishol ]
+  * wl127x/wl128x: update PLT firmwares
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth,8265
+  * linux-firmware: Add firmware file for Intel Bluetooth,9260
+  * linux-firmware: Add firmware file for Intel Bluetooth,9560
+
+  [ Edwin Peer ]
+  * nfp: update Agilio SmartNIC firmware to rev 2.0.4
+
+  [ Rasesh Mody ]
+  * qed: Add firmwares 8.30.12.0 and 8.10.9.0
+
+  [ Larry Finger ]
+  * rtl_bt: Add firmware and configuration files for the Bluetooth parts of RTL8821C and RTL8723D
+
+  [ Kalle Valo ]
+  * ath10k: QCA4019 hw1.0: update firmware-5.bin to 10.4-3.5.3-00053
+  * ath10k: QCA4019 hw1.0: update board-2.bin
+  * ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00079-QCARMSWPZ-1
+  * ath10k: QCA6174 hw3.0: update board-2.bin
+  * ath10k: QCA9377 hw1.0: update firmware-5.bin to WLAN.TF.1.0-00002-QCATFSWPZ-5
+  * ath10k: QCA9887 hw1.0: update firmware-5.bin to 10.2.4-1.0-00037
+  * ath10k: QCA9888 hw2.0: update firmware-5.bin to 10.4-3.5.3-00053
+  * ath10k: QCA988X hw2.0: update firmware-5.bin to 10.2.4-1.0-00037
+  * ath10k: QCA9984 hw1.0: update firmware-5.bin to 10.4-3.5.3-00053
+
+  [ Luca Coelho ]
+  * iwlwifi: update firmware version 34 for 9000 series
+
+  [ Rasesh Mody ]
+  * qed: Add firmwares 8.20.0.0 8.18.9.0 and 8.14.6.0
+
+  [ Amit K Bag ]
+  * linux-firmware:Update firmware patch for Intel Bluetooth 7265 (D1)
+
+  [ Kaihsiu Chen ]
+  * BCM-0bb4-0306: Cypress Bluetooth firmware for HTC Vive
+
+  [ Rahul Verma ]
+  * qed: Add firmware 8.33.11.0
+
+  [ Tal Bar ]
+  * Mellanox: Add new mlxsw_spectrum firmware 13.1620.192
+
+  [ Sanyog Kale ]
+  * linux-firmware: intel: Update Kabylake audio firmware
+
+  [ kaihsiu_chen ]
+  * BCM-0bb4-0306: Update to Cypress license in WHENCE
+
+  [ Sanyog Kale ]
+  * linux-firmware: intel: Update Skylake audio firmware
+  * linux-firmware: intel: Update Broxton audio firmware
+  * linux-firmware: intel: Update Kabylake audio firmware
+  * linux-firmware: intel: Update Geminilake audio firmware
+
+  [ Ganesh Goudar ]
+  * cxgb4: update firmware to revision 1.18.9.0
+
+  [ Edwin Peer ]
+  * nfp: update Agilio SmartNIC firmware to rev 2.0.7
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware patch for Intel Bluetooth 8260
+  * linux-firmware: Update firmware file for Intel Bluetooth,8265
+  * linux-firmware: Add firmware file for Intel Bluetooth,9260
+  * linux-firmware: Add firmware file for Intel Bluetooth,9560
+
+  [ Alex Deucher ]
+  * amdgpu: update vce firmware for Polaris
+
+  [ Luca Coelho ]
+  * iwlwifi: add some new FW versions and update older ones
+  * iwlwifi: update firmwares for 3160, 3168 and 7265
+
+  [ Amitkumar Karwar ]
+  * linux-firmware: rsi: update firmware images for Redpine 9113 chipset
+
+  [ Maya Erez ]
+  * linux-firmware: update wil6210 firmware to 5.2.0.18
+
+  [ Louis Peens ]
+  * nfp: update Agilio SmartNIC flower firmware to rev 5701
+  * nfp: add symlink for mixed mode Agilio CX 2x25GbE cards
+
+  [ Ganesh Goudar ]
+  * cxgb4: update firmware to revision 1.19.1.0
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth,8265
+  * linux-firmware: Add firmware file for Intel Bluetooth,9260
+  * linux-firmware: Add firmware file for Intel Bluetooth,9560
+
+  [ Rasesh Mody ]
+  * qed: Add firmware 8.33.12.0
+
+  [ John Fleck ]
+  * Update Intel OPA hfi1 firmware
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: update Marvell SD8897-B0 firmware image to add WPA2 vulnerability fix
+  * linux-firmware: update Marvell USB8997 firmware image to add WPA2 vulnerability fix
+
+  [ Felix Manlunas ]
+  * linux-firmware: liquidio: update firmware to v1.7.2
+
+  [ Louis Peens ]
+  * nfp: update Agilio SmartNIC flower firmware to rev AOTC-2.9.A.16
+  * nfp: Add symlink for Agilio CX 1x40GbE flower firmware
+
+  [ Alex Deucher ]
+  * amdgpu: sync up raven firmware with 18.10 release
+  * amdgpu: sync up fiji firmware with 18.10 release
+  * amdgpu: sync up tonga firmware with 18.10 release
+  * amdgpu: sync up stoney firmware with 18.10 release
+  * amdgpu: sync up topaz firmware with 18.10 release
+  * amdgpu: sync up carrizo firmware with 18.10 release
+  * amdgpu: sync up vega10 firmware with 18.10 release
+  * amdgpu: sync up polaris10 firmware with 18.10 release
+  * amdgpu: sync up polaris11 firmware with 18.10 release
+  * amdgpu: sync up polaris12 firmware with 18.10 release
+
+  [ Sherry Hurwitz ]
+  * linux-firmware: Update AMD cpu microcode
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth,9560
+  * linux-firmware:Update firmware patch for Intel Bluetooth 7265 (D1)
+  * linux-firmware: Update firmware file for Intel Bluetooth,9260
+  * linux-firmware: Update firmware patch for Intel Bluetooth 7260 (B3/B4)
+  * linux-firmware: Update firmware patch for Intel Bluetooth 7260 (B5/B6)
+  * linux-firmware: Update firmware file for Intel Bluetooth,8265
+
+  [ Felix Manlunas ]
+  * linux-firmware: liquidio: update vswitch firmware to v1.7.2
+
+  [ Rahul Verma ]
+  * qed: Add firmware 8.37.2.0
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware patch for Intel Bluetooth 8260
+
+  [ Sherry Hurwitz ]
+  * Update AMD cpu microcode for family 15h
+
+  [ Vikash Garodia ]
+  * qcom: add venus firmware files for v5.2
+
+  [ Amit K Bag ]
+  * linux-firmware:Update firmware patch for Intel Bluetooth 7265 (D1)
+  * linux-firmware: Update firmware patch for Intel Bluetooth 7265 (D0)
+
+  [ Alex Deucher ]
+  * amdgpu: update vega10 VCE firmware to version 55.3
+
+  [ Chi-Hsien Lin ]
+  * Update Cypress license termination clause
+  * brcm: update firmware for bcm43430 sdio
+  * brcm: update firmware for bcm43340 sdio
+  * brcm: update firmware for bcm43362 sdio
+  * brcm: update firmware for bcm4354 sdio
+  * brcm: update firmware for bcm4356 pcie
+
+  [ Ganesh Goudar ]
+  * cxgb4: update firmware to revision 1.20.8.0
+
+  [ Sedat Dilek ]
+  * WHENCE: Fix typo Version
+
+  [ Alex Deucher ]
+  * amdgpu: sync up bonaire firmware with 18.20 release
+  * amdgpu: sync up hawaii firmware with 18.20 release
+  * amdgpu: sync up kabini firmware with 18.20 release
+  * amdgpu: sync up mullins firmware with 18.20 release
+  * amdgpu: sync up kaveri firmware with 18.20 release
+  * amdgpu: sync up hainan firmware with 18.20 release
+  * amdgpu: sync up oland firmware with 18.20 release
+  * amdgpu: sync up tahiti firmware with 18.20 release
+  * amdgpu: sync up pitcairn firmware with 18.20 release
+  * amdgpu: sync up verde firmware with 18.20 release
+  * amdgpu: sync up polaris10 firmware with 18.20 release
+  * amdgpu: sync up polaris11 firmware with 18.20 release
+  * amdgpu: sync up polaris12 firmware with 18.20 release
+  * amdgpu: sync up raven firmware with 18.20 release
+  * amdgpu: sync up vega10 firmware with 18.20 release
+  * amdgpu: add initial VegaM firmware
+  * amdgpu: update copyright date
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: update Marvell USB8801 B0 firmware image
+
+  [ Ryan Harkin ]
+  * brcm: add 43430 based AP6212 and 1DX NVRAM
+
+  [ Sean Wang ]
+  * linux-firmware: mediatek: add MT7622 Bluetooth firmwares and license file
+
+  [ Josh Boyer ]
+  * WHENCE: Remove reference to amdgpu/vegam_me_2.bin
+
+  [ Nir Dotan ]
+  * Mellanox: Add new mlxsw_spectrum firmware 13.1702.6
+
+  [ Guy Mishol ]
+  * wl18xx: update firmware file 8.9.0.0.79
+
+  [ Lorenzo Bianconi ]
+  * linux-firmware: add firmware for mt76x2u
+
+  [ Louis Peens ]
+  * nfp: update Agilio SmartNIC flower firmware to rev AOTC-2.9.A.31
+
+  [ Vikash Garodia ]
+  * qcom: update venus firmware files for v5.2
+
+  [ Stanislaw Gruszka ]
+  * linux-firmware: add firmware for mt76x0
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware patch for Intel Bluetooth 8260
+  * linux-firmware: Update firmware file for Intel Bluetooth,8265
+  * linux-firmware: Update firmware file for Intel Bluetooth,9260
+  * linux-firmware: Update firmware file for Intel Bluetooth,9560
+  * linux-firmware:Update firmware patch for Intel Bluetooth 7265 (D1)
+
+  [ Rahul Verma ]
+  * qed: Add firmware 8.37.7.0
+
+  [ Damian Kos ]
+  * linux-firmware: add firmware for mhdp8546
+
+  [ Alex Deucher ]
+  * amdgpu: sync up fiji firmware with 18.30 release
+  * amdgpu: sync up polaris11 firmware with 18.30 release
+  * amdgpu: sync up tonga firmware with 18.30 release
+  * amdgpu: sync up polaris12 firmware with 18.30 release
+  * amdgpu: sync up raven firmware with 18.30 release
+  * amdgpu: sync up vega10 firmware with 18.30 release
+  * amdgpu: sync up polaris10 firmware with 18.30 release
+
+  [ Ben Skeggs ]
+  * nvidia: switch GP10[2467] to newer scrubber/ACR firmware (from GP108)
+
+  [ Petr Machata ]
+  * Mellanox: Add new mlxsw_spectrum firmware 13.1703.4
+
+  [ Larry Finger ]
+  * rtl_bt: Add firmware and configuration files for the Bluetooth part of RTL8822CU
+
+  [ Petr Machata ]
+  * Mellanox: Add new mlxsw_spectrum firmware 13.1703.4
+
+  [ Chi-Hsien Lin ]
+  * brcm: update firmware for bcm43362 sdio
+
+  [ Balakrishna Godavarthi ]
+  * qca: update BT firmware files for QCA ROME chip.
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: add Marvell SD8997 firmware image
+
+  [ Anusha Srivatsa ]
+  * firmware/icl/dmc: Add v1.07 of DMC for Icelake
+
+  [ Gourav Samaiya ]
+  * nvidia: add GV100 signed firmware
+
+  [ Sean Wang ]
+  * linux-firmware: mediatek: add firmware for mt7668u Bluetooth
+
+  [ David Lechner ]
+  * ti-connectivity: add firmware for CC2560(A) Bluetooth
+
+  [ Edwin Peer ]
+  * nfp: update Agilio SmartNIC firmware to rev 2.1.13
+
+  [ Luca Coelho ]
+  * iwlwifi: update firmwares for 7000, 8000 and 9000 series
+
+  [ Emmanuel Grumbach ]
+  * iwlwifi: update firmwares for 9000 series
+  * iwlwifi: add -41.ucode firmwares for 9000 series
+
+  [ Louis Peens ]
+  * nfp: update Agilio SmartNIC flower firmware to rev AOTC-2.9.A.37
+
+  [ Larry Finger ]
+  * rtw88: Add firmware file for driver rtw88
+
+  [ Mary Pham ]
+  * nfp: Add Agilio BPF firmware rev 2.0.6.124
+
+  [ Kalle Valo ]
+  * ath10k: QCA4019 hw1.0: update firmware-5.bin to 10.4-3.6-00140
+  * ath10k: QCA4019 hw1.0: update board-2.bin
+  * ath10k: QCA6174 hw3.0: update firmware-6.bin to RM.4.4.1.c2-00057-QCARMSWP-1
+  * ath10k: QCA9377 hw1.0: add firmware-6.bin to WLAN.TF.2.1-00021-QCARMSWP-1
+  * ath10k: QCA9887 hw1.0: update firmware-5.bin to 10.2.4-1.0-00041
+  * ath10k: QCA9888 hw2.0: update firmware-5.bin to 10.4-3.6-00140
+  * ath10k: QCA9888 hw2.0: update board-2.bin
+  * ath10k: QCA988X hw2.0: update firmware-5.bin to 10.2.4-1.0-00041
+  * ath10k: QCA9984 hw1.0: update firmware-5.bin to 10.4-3.6.0.1-00003
+  * ath10k: QCA9984 hw1.0: update board-2.bin
+
+  [ John Fleck ]
+  * Update Intel OPA hfi1 firmware
+
+  [ Lorenzo Bianconi ]
+  * linux-firmware: add firmware for mt7610e
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth,9560
+  * linux-firmware: Update firmware file for Intel Bluetooth,9260
+  * linux-firmware: Update firmware patch for Intel Bluetooth 8260
+  * linux-firmware: Update firmware file for Intel Bluetooth,8265
+
+  [ Manlunas, Felix ]
+  * linux-firmware: liquidio: fix GPL compliance issue
+
+  [ Cristian Sovaiala ]
+  * linux-firmware: add MC firmware for NXP DPAA2 SoCs
+
+  [ Stanislaw Gruszka ]
+  * linux-firmware: add firmware for mt7650e
+
+  [ Alex Deucher ]
+  * amdgpu: update vega10 firmware to 18.40
+  * amdgpu: update polaris10 firmware to 18.40
+  * amdgpu: update carrizo firmware to 18.40
+  * amdgpu: update tonga firmware to 18.40
+  * amdgpu: update fiji firmware to 18.40
+  * amdgpu: update raven firmware to 18.40
+  * amdgpu: add raven dmcu firmware
+
+  [ Mody, Rasesh ]
+  * qed: Add 8.37.7.0 firmware image
+
+  [ Ganesh Goudar ]
+  * cxgb4: update firmware to revision 1.21.5.0
+
+  [ Ciaran Toal ]
+  * nfp: update Agilio SmartNIC firmware to rev 2.1.16
+
+  [ Anusha Srivatsa ]
+  * firmware/huc/bxt: Add huC Update for BXT
+
+  [ Cezary Rojewski ]
+  * linux-firmware: intel: Update Cannonlake audio firmware.
+
+  [ Quentin Schulz ]
+  * microchip: add firmware for VSC8574 and VSC8584 Ethernet PHYs
+
+  [ Louis Peens ]
+  * nfp: update Agilio SmartNIC flower firmware to rev AOTC-2.10.A.13
+
+  [ Allen, John ]
+  * linux-firmware: Update AMD cpu microcode
+
+  [ Alex Deucher ]
+  * amdgpu: Add new polaris SMC firmwares
+  * amdgpu: Add new polaris MC firmwares
+  * amdgpu: add firmware for vega12
+  * amdgpu: update polaris10 fw for 18.50 release
+  * amdgpu: update polaris11 fw for 18.50 release
+  * amdgpu: update raven fw for 18.50 release
+  * amdgpu: update vega10 fw for 18.50 release
+  * amdgpu: update vega12 fw for 18.50 release
+
+  [ Nagadheeraj, Rottela ]
+  * cavium: Update firmware for CNN55XX crypto driver
+
+  [ Shalom Toledo ]
+  * Mellanox: Add new mlxsw_spectrum firmware 13.1910.622
+
+  [ Arend van Spriel ]
+  * brcm: provide new firmwares for BCM4366 chipset
+
+  [ Emmanuel Grumbach ]
+  * iwlwifi: update -41.ucode for 9000 series
+  * iwlwifi: add -43.ucode for 9000 series
+  * iwlwifi: update firmwares for 8000 series
+
+  [ Hans de Goede ]
+  * rtl_bt: Add firmware and configuration files for the Bluetooth part of RTL8723BS
+  * check_whence.py: Add support for filenames with spaces in them
+  * WHENCE: Put quotes around brcmfmac NVRAM filenames
+  * brcm: Add 43362 based AP6210 NVRAM for the Cubietech Cubietruck
+  * brcm: Add brcmfmac43362-sdio.lemaker,bananapro.txt symlink
+  * brcm: Add 4356 based AP6356 NVRAM for the GPD win handheld
+  * brcm: Add 43430a0 based AP6212 NVRAM for the Onda V80 Plus tablet
+  * brcm: Add 43430a0 based AP6212 NVRAM for the Jumper EZpad mini 3 tablet
+  * brcm: Add 43340 based AP6234 NVRAM for the Meegopad T08 HDMI stick
+  * brcm: Add 43430 NVRAM for the Chuwi Vi8 Plus tablet
+  * brcm: Add 4330 NVRAM for the Prowise PT301 tablet
+
+  [ Alex Deucher ]
+  * Revert "amdgpu: update vega10 fw for 18.50 release"
+
+  [ Arjun Vynipadath ]
+  * cxgb4: update firmware to revision 1.22.9.0
+
+  [ Emmanuel Grumbach ]
+  * iwlwifi: update firmwares for 9000 series
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: update Marvell USB8801 B0 firmware image
+
+  [ Matthias Brugger ]
+  * brcm: Add BCM43455 NVRAM for Raspberry Pi 3 B+
+  * brcm: Add BCM43430 NVRAM for the Raspberry Pi 3 Model B
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth,9560
+  * linux-firmware: Update firmware file for Intel Bluetooth,9260
+  * linux-firmware: Update firmware patch for Intel Bluetooth 8260
+  * linux-firmware: Update firmware file for Intel Bluetooth,8265
+
+  [ Josh Boyer ]
+  * Revert "brcm: Add BCM43455 NVRAM for Raspberry Pi 3 B+"
+
+  [ Alex Deucher ]
+  * amdgpu: add picasso fw for 18.50 release
+  * amdgpu: add raven2 fw for 18.50 release
+
+  [ Matthias Brugger ]
+  * brcm: Fix filename for BCM43430 NVRAM for the Raspberry Pi 3 Model B
+  * brcm: Add BCM43455 NVRAM for Raspberry Pi 3 B+
+
+  [ Kalle Valo ]
+  * ath10k: QCA6174 hw3.0: update board-2.bin
+  * ath10k: QCA9888 hw2.0: update firmware-5.bin to 10.4-3.9.0.2-00024
+  * ath10k: QCA988X hw2.0: update firmware-5.bin to 10.2.4-1.0-00043
+  * ath10k: QCA9984 hw1.0: update firmware-5.bin to 10.4-3.9.0.2-00021
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: add Marvell SD8977 firmware image
+  * linux-firmware: update Marvell SD8897-B0 firmware image
+  * linux-firmware: update Marvell PCIe-USB8997 firmware image
+
+  [ Alex Deucher ]
+  * amdgpu: bump year on license
+  * amdgpu: add firmware for vega20 from 18.50
+
+  [ Rahul Verma ]
+  * bnx2x: Add FW 7.13.11.0.
+
+  [ Ajay Gupta ]
+  * nvidia: add TU10x typec controller firmware
+
+  [ Balakrishna Godavarthi ]
+  * qca: Add firmware files for BT chip wcn3990.
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth,9260
+  * linux-firmware: Update firmware file for Intel Bluetooth,9560
+
+  [ Alex Deucher ]
+  * amdgpu: drop raven2_sdma1.bin
+  * amdgpu: update raven2 rlc firmware
+
+  [ Josh Boyer ]
+  * WHENCE: Correct errant entries
+
+  [ Allen, John ]
+  * linux-firmware: Add AMD SEV firmware
+
+  [ Balakrishna Godavarthi ]
+  * QCA: Add the fw files for BT Chip QCA6174.
+
+  [ Louis Peens ]
+  * nfp: update Agilio SmartNIC firmware to rev 2.1.16.1
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: update Marvell 8897/8997 firmware images
+  * linux-firmware: update Marvell 8787/8801/8887 firmware images
+
+  [ Larry Finger ]
+  * rtl_bt: Update firmware for BT part of RTL8822C
+
+  [ Yan-Hsuan Chuang ]
+  * rtw88: RTL8822C: update rtw8822c_fw.bin to v5.0
+
+  [ Alex Deucher ]
+  * drm/amdgpu: update vega20 to latest from 18.50 branch
+  * drm/amdgpu: update polaris12 to latest from 18.50 branch
+  * drm/amdgpu: update picasso to latest from 18.50 branch
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 8265
+
+  [ Vishal Kulkarni ]
+  * cxgb4: update firmware to revision 1.23.3.0
+
+  [ Louis Peens ]
+  * nfp: update Agilio SmartNIC flower firmware to rev AOTC-2.10.A.23
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: update Marvell 8797/8997 firmware images
+
+  [ Yunfei Dong ]
+  * mediatek: update MT8173 VPU firmware to v1.1.2 [decoder] Enlarge struct vdec_pic_info to support more capture buffer plane and capture buffer format change.
+
+  [ Ryder Lee ]
+  * linux-firmware: add firmware for MT7615E
+
+  [ Cristian Sovaiala ]
+  * linux-firmware: Update NXP Management Complex firmware to version 10.14.3
+
+  [ Vishal Kulkarni ]
+  * cxgb4: update firmware to revision 1.23.4.0
+
+  [ Amit K Bag ]
+  * linux-firmware: Add firmware file for Intel Bluetooth 22161
+
+  [ Anusha Srivatsa ]
+  * drm/i915/firmware: Add BXT GuC v32.0.3
+  * drm/i915/firmware: Add SKL GuC v32.0.3
+  * drm/i915/firmware: Add KBL GuC v32.0.3
+  * drm/i915/firmware: Add GLK GuC v32.0.3
+  * drm/i915/firmware: Add GLK HuC v03.01.2893
+  * drm/i915/firmware: Add ICL GuC v32.0.3
+  * drm/i915/firmware: Add ICL HuC v8.4.3238
+
+  [ Ido Schimmel ]
+  * Mellanox: Add new mlxsw_spectrum firmware 13.2000.1122
+
+  [ Giovanni Cabiddu ]
+  * linux-firmware: update fw for qat devices
+
+  [ Alex Deucher ]
+  * amdgpu: update picasso to the latest 19.10 firmware
+  * amdgpu: update raven to the latest 19.10 firmware
+  * amdgpu: update raven2 to the latest 19.10 firmware
+  * amdgpu: update polaris10 to the latest 19.10 firmware
+  * amdgpu: update polaris11 to the latest 19.10 firmware
+  * amdgpu: update vega10 to the latest 19.10 firmware
+  * amdgpu: update vega12 to the latest 19.10 firmware
+  * amdgpu: update vega20 to the latest 19.10 firmware
+
+  [ Luca Coelho ]
+  * iwlwifi: add -46.ucode firmwares for 9000 series
+  * iwlwifi: add firmware for 22260 and update 9000 series -46 firmwares
+  * iwlwifi: update -46 firmwares for 22260 and 9000 series
+
+  [ Maxime Jourdan ]
+  * amlogic: add video decoder firmwares
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 22161
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 8265
+
+  [ Ben Skeggs ]
+  * nvidia: update GP10[2467] SEC2 RTOS with the one already used on GP108
+
+  [ Robin Gong ]
+  * imx: sdma: update firmware to v3.5/v4.5
+
+  [ Siva Rebbagondla ]
+  * linux-firmware: rsi: update firmware images for Redpine 9113 chipset
+
+  [ Damian Kos ]
+  * linux-firmware: update firmware for mhdp8546
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: update licence text for Marvell firmware
+
+  [ Allen, John ]
+  * linux-firmware: Update AMD SEV firmware
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth 22161
+
+  [ Phani Kiran Hemadri ]
+  * cavium: Add firmware for CNN55XX crypto driver.
+
+  [ Emmanuel Grumbach ]
+  * iwlwifi: udpate -36 firmware for 8000 series
+
+  [ Luca Coelho ]
+  * iwlwifi: update Core45 FWs for 22260, 9000 and 9260
+  * iwlwifi: update FWs for 9000 series to Core45-96
+  * iwlwifi: update FW for 22000 to Core45-96
+  * iwlwifi: add new firmwares for integrated 22000 series
+
+  [ Bag, Amit K ]
+  * linux-firmware: Add firmware file for Intel Bluetooth AX201
+
+  [ Siva Rebbagondla ]
+  * linux-firmware: rsi: add firmware image for redpine 9116 chipset
+
+  [ Anusha Srivatsa ]
+  * drm/i915/firmware: Add v33 of GuC for BXT
+  * drm/i915/firmware: Add v33 of GuC for GLK
+  * drm/i915/firmware: Add v33 of GuC for SKL
+  * drm/i915/firmware: Add v33 of GuC for KBL
+  * drm/i915/firmware: Add v33 of GuC for ICL
+
+  [ Alex Deucher ]
+  * amdgpu: update picasso to latest 19.20 firmware
+  * amdgpu: update raven to latest 19.20 firmware
+  * amdgpu: update raven2 to latest 19.20 firmware
+  * amdgpu: update polaris12 to latest 19.20 firmware
+  * amdgpu: update vega10 to latest 19.20 firmware
+  * amdgpu: partially revert 2579167548be33afb1fe2a9a5c141561ee5a8bbe
+  * amdgpu: update vega12 to latest 19.20 firmware
+  * amdgpu: update tonga to latest 19.20 firmware
+  * amdgpu: update raven vcn firmware
+  * amdgpu: update picasso vcn firmware
+  * amdgpu: update vega10 VCE firmware
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth 22161
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+  [ Luca Coelho ]
+  * iwlwifi: update FWs for 3168, 7265D, 9000, 9260, 8000, 8265 and cc
+  * iwlwifi: update -48 FWs for Qu and cc
+
+  [ Cristian Sovaiala ]
+  * linux-firmware: Update NXP Management Complex firmware to version 10.16.2
+
+  [ Ben Skeggs ]
+  * nvidia: add missing entries in WHENCE
+
+  [ Louis Peens ]
+  * nfp: update Agilio SmartNIC flower firmware to rev AOTC-2.10.A.38
+
+  [ Vishal Kulkarni ]
+  * cxgb4: update firmware to revision 1.24.3.0
+
+  [ Kalle Valo ]
+  * ath10k: QCA4019 hw1.0: update board-2.bin
+  * ath10k: QCA6174 hw3.0: update firmware-6.bin to WLAN.RM.4.4.1-00140-QCARMSWPZ-1
+  * ath10k: QCA9887 hw1.0: update firmware-5.bin to 10.2.4-1.0-00045
+  * ath10k: QCA9888 hw2.0: update firmware-5.bin to 10.4-3.9.0.2-00040
+  * ath10k: QCA9888 hw2.0: update board-2.bin
+  * ath10k: QCA988X hw2.0: update firmware-5.bin to 10.2.4-1.0-00045
+  * ath10k: QCA9984 hw1.0: update firmware-5.bin to 10.4-3.9.0.2-00046
+  * ath10k: QCA9984 hw1.0: update board-2.bin
+
+  [ Yan-Hsuan Chuang ]
+  * rtw88: RTL8822C: update rtw8822c_fw.bin to v7.3
+  * rtw88: RTL8822C: add WoW firmware v7.3
+  * rtw88: add a README file
+
+  [ Takashi Iwai ]
+  * Install only listed firmware files
+
+  [ Ido Schimmel ]
+  * Mellanox: Add new mlxsw_spectrum firmware 13.2000.1886
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+  * linux-firmware: Update firmware file for Intel Bluetooth AX200
+
+  [ Max Chou ]
+  * rtl_bt: Update RTL8822C BT FW to V0x098A_94A4
+
+  [ Josh Boyer ]
+  * check_whence: Add copy-firmware.sh to the list of ignored files
+
+  [ Luca Coelho ]
+  * iwlwifi: update FWs to core45-152 release
+
+  [ Hans de Goede ]
+  * brcm: Add 43340 based AP6234 NVRAM for the PoV TAB-P1006W-232 tablet
+  * brcm: Add 43455 based AP6255 NVRAM for the Minix Neo Z83-4 Mini PC
+
+  [ Vishal Kulkarni ]
+  * Chelsio driver loads firmware configuration file to allow firmware to distribute resources before chip bring up. Chelsio NIC driver, cxgb4 searches for firmware config file at /lib/firmware/cxgb4/ directory.
+
+  [ Amit K Bag ]
+  * linux-firmware: Add firmware file for Intel Bluetooth AX201
+
+  [ Heiner Kallweit ]
+  * rtl_nic: add firmware rtl8125a-3
+
+  [ Max Chou ]
+  * rtl_bt: Update RTL8723D BT FW to 0x828A_96F1
+
+  [ Thierry Reding ]
+  * Add symlinks for Tegra VIC firmware binaries
+  * nvidia: Add XUSB firmware for Tegra186
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+  [ Nicolas Dechesne ]
+  * qcom: add firmware files for Adreno a630
+
+  [ Anusha Srivatsa ]
+  * drm/i915/firmware: Add v1.09 of DMC for ICL
+  * drm/i915/firmware: Add v2.04 of DMC for TGL
+  * drm/i915/firmware: Add v33 of GuC for CML
+  * drm/i915/firmware: Add v2.0.0 of HuC for Skylake
+  * drm/i915/firmware: Add v4.0.0 of HuC for Kabylake
+  * drm/i915/firmware: Add v2.0.0 of HuC for Broxton
+  * drm/i915/firmware: Add v4.0.0 of HuC for Geminilake
+  * drm/i915/firmware: Add v4.0.0 of HuC for Cometlake
+  * drm/i915/firmware: Add v9.0.0 of HuC for Icelake
+
+  [ Alex Deucher ]
+  * amdgpu: add initial navi10 firmware
+
+  [ Tony Nguyen ]
+  * ice: Add package file for Intel E800 series driver
+
+  [ Alex Deucher ]
+  * amdgpu: add new raven rlc firmware
+  * amdgpu: update raven ucode for 19.30
+  * amdgpu: update raven2 ucode for 19.30
+  * amdgpu: update picasso ucode for 19.30
+  * amdgpu: update vega10 ucode for 19.30
+  * amdgpu: update vega12 ucode for 19.30
+  * amdgpu: update vega20 ucode for 19.30
+
+  [ Thierry Reding ]
+  * Make symlinks consistent
+  * copy-firmware: Create symlinks from WHENCE file
+  * Remove duplicate symlinks
+  * nvidia: Add XUSB firmware for Tegra194
+  * nvidia: Update Tegra210 XUSB firmware to v50.24
+
+  [ Josh Boyer ]
+  * ice: Fix up WHENCE entry and symlink
+
+  [ Larry Finger ]
+  * rtlwifi: rtl8821ae: Add firmware for the RTL8812AE variant.
+
+  [ Alex Deucher ]
+  * amdgpu: add initial navi14 firmware form 19.30
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+  * linux-firmware: Update firmware file for Intel Bluetooth AX200
+
+  [ Allen, John ]
+  * linux-firmware: Update AMD cpu microcode
+
+  [ Sudarsana Reddy Kalluru ]
+  * bnx2x: Add FW 7.13.15.0.
+
+  [ Max Chou ]
+  * rtl_bt: Update configuration file for BT part of RTL8822CU
+
+  [ Hayes Wang ]
+  * rtl_nic: add firmware files for RTL8153
+
+  [ Ido Schimmel ]
+  * Mellanox: Add new mlxsw_spectrum firmware 13.2000.2308
+  * Mellanox: Add new mlxsw_spectrum2 firmware 29.2000.2308
+
+  [ Amit K Bag ]
+  * linux-firmware: Add firmware file for Intel Bluetooth AX201
+
+  [ Alex Deucher ]
+  * amdgpu: update raven firmware for 19.30
+  * amdgpu: update navi14 firmware for 19.30
+  * amdgpu: add new navi14 wks gfx firmware for 19.30
+
+  [ Rasesh Mody ]
+  * qed: Add firmware 8.40.33.0
+
+  [ Yan-Hsuan Chuang ]
+  * rtw88: RTL8723D: add firmware file v48
+
+  [ Daniele Ceraolo Spurio ]
+  * i915: Add GuC firmware v33.0.4 for EHL
+  * i915: Add HuC firmware v9.0.0 for EHL
+  * i915: Add GuC firmware v35.2.0 for TGL
+  * i915: Add HuC firmware v7.0.3 for TGL
+
+  [ Alex Deucher ]
+  * amdgpu: update navi10 vcn firmware
+  * amdgpu: update navi14 vcn firmware
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth AX200
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+  [ Cristian Sovaiala ]
+  * linux-firmware: Update NXP Management Complex firmware to version 10.18.0
+
+  [ Heiner Kallweit ]
+  * rtl_nic: add firmware rtl8168fp-3
+
+  [ Bjorn Andersson ]
+  * qcom: Add SDM845 modem firmware
+  * qcom: Add SDM845 Audio DSP firmware
+  * qcom: Add SDM845 Compute DSP firmware
+
+  [ Matthias Brugger ]
+  * brcm: Add BCM43455 NVRAM for Raspberry Pi 4 B
+
+  [ Vishal Kulkarni ]
+  * cxgb4: Update firmware to revision 1.24.11.0
+
+  [ Dikshita Agarwal ]
+  * qcom: update venus firmware files for v5.4
+
+  [ Josh Boyer ]
+  * WHENCE: Add raspberry-pi4 SDIO file
+
+  [ Pascal van Leeuwen ]
+  * inside-secure: add new "mini" firmware for the EIP197 driver
+
+  [ John Allen ]
+  * linux-firmware: Update AMD cpu microcode
+
+  [ Kalle Valo ]
+  * ath10k: QCA6174 hw3.0: update board-2.bin
+  * ath10k: QCA9887 hw1.0: update firmware-5.bin to 10.2.4-1.0-00047
+  * ath10k: QCA9888 hw2.0: update firmware-5.bin to 10.4-3.9.0.2-00070
+  * ath10k: QCA988X hw2.0: update firmware-5.bin to 10.2.4-1.0-00047
+  * ath10k: QCA9984 hw1.0: update firmware-5.bin to 10.4-3.9.0.2-00070
+  * ath10k: WCN3990 hw1.0: add firmware WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
+
+  [ Ganapathi Bhat ]
+  * linux-firmware: add NXP firmware licence file
+
+  [ Bjorn Andersson ]
+  * qcom: Switch SDM845 WLAN firmware
+
+  [ Josh Boyer ]
+  * Adjust WHENCE entry to check_whence doesn't complain
+
+  [ Michal Kalderon ]
+  * qed: Add firmware 8.42.2.0
+
+  [ Alex Deucher ]
+  * amdgpu: add TA microcode for Raven asics
+  * amdgpu: update navi14 microcode for 19.50
+  * amdgpu: update navi10 microcode for 19.50
+  * amdgpu: update raven microcode for 19.50
+  * amdgpu: update raven2 microcode for 19.50
+  * amdgpu: update picasso microcode for 19.50
+  * amdgpu: update vega10 microcode for 19.50
+  * amdgpu: update vega12 microcode for 19.50
+  * amdgpu: update vega20 microcode for 19.50
+  * radeon: update oland rlc microcode from amdgpu
+
+  [ Ido Schimmel ]
+  * Mellanox: Add new mlxsw_spectrum firmware xx.2000.2714
+
+  [ gtk_ruiwang ]
+  * mediatek: update MT8173 VPU firmware to v1.1.3
+
+  [ Alex Deucher ]
+  * amdgpu: Add navi10 TA ucode
+  * amdgpu: update navi10 firmware for 19.50
+
+  [ Gourav Samaiya ]
+  * nvidia: add TU102/TU104/TU106 signed firmware
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+  * linux-firmware: Update firmware file for Intel Bluetooth AX200
+
+  [ Kalle Valo ]
+  * qca: update bluetooth firmware for QCA6174
+
+  [ Louis Peens ]
+  * nfp: update Agilio SmartNIC flower firmware to rev AOTC-2.12.A.13
+
+  [ Alex Deucher ]
+  * amdgpu: update raven2 firmware for 19.50
+  * amdgpu: add renoir firmware for 19.50
+
+  [ Maxime Jourdan ]
+  * amlogic: update video decoder firmwares
+
+  [ Alex Deucher ]
+  * Revert "radeon: update oland rlc microcode from amdgpu"
+  * amdgpu: update to latest navi10 firmware from 19.50
+
+  [ Ryder Lee ]
+  * linux-firmware: add version 2 for MT7615E
+  * linux-firmware: add firmware for MT7622
+
+  [ Max Chou ]
+  * rtl_bt: Update RTL8822C BT FW to V0x0998_C2B4
+
+  [ Hayes Wang ]
+  * rtl_nic: update firmware for RTL8153A
+
+  [ gtk_ruiwang ]
+  * mediatek: update MT8173 VPU firmware to v1.1.4
+
+  [ Alex Deucher ]
+  * drm/amdgpu: update to latest 19.50 firmware for raven
+
+  [ Gourav Samaiya ]
+  * nvidia: add TU116/117 signed firmware
+
+  [ Balakrishna Godavarthi ]
+  * qca: Add firmware files for BT chip wcn3991.
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+
+  [ gtk_ruiwang ]
+  * mediatek: move MT8173 VPU FW to subfolder
+
+  [ Rocky Liao ]
+  * qca: Fix blueooth firmware name for QCA6174
+
+  [ Josh Boyer ]
+  * mediatek: Remove in-tree symlinks
+
+  [ Brian Norris ]
+  * Makefile: improve `make check` usefulness
+  * check_whence: python3/utf-8 support
+
+  [ Daniele Ceraolo Spurio ]
+  * i915: add HuC firmware v7.0.12 for TGL
+
+  [ José Roberto de Souza ]
+  * i915: Add DMC firmware v2.06 for TGL
+
+  [ Hilda Wu ]
+  * rtl_bt: Add firmware and configuration files for RTL8822C BT UART chip
+
+  [ Alex Deucher ]
+  * amdgpu: update vega10 firmware from 19.50
+  * amdgpu: update vega12 firmware from 19.50
+  * amdgpu: update vega20 firmware from 19.50
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+  * linux-firmware: Update firmware file for Intel Bluetooth AX200
+
+  [ Erin Lo ]
+  * mediatek: Add mt8183 SCP firmware
+
+  [ Rocky Liao ]
+  * QCA: Add Bluetooth firmware for QCA6390
+
+  [ Balakrishna Godavarthi ]
+  * qca: Enable transparent WBS for WCN3991
+
+  [ Bjorn Andersson ]
+  * qcom: Add SDM845 Adreno ZAP shader firmware
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+  * linux-firmware: Update firmware file for Intel Bluetooth AX200
+
+  [ Sean Wang ]
+  * linux-firmware: add firmware for MT7663 Wifi/BT combo device
+
+  [ Vishal Kulkarni ]
+  * cxgb4: Update firmware to revision 1.24.14.0
+
+  [ Alex Deucher ]
+  * amdgpu: add navi14 TA firmware from 20.10
+  * amdgpu: update navi14 firmware for 20.10
+  * amdgpu: update navi10 firmware for 20.10
+  * amdgpu: update picasso firmware for 20.10
+  * amdgpu: update raven firmware for 20.10
+  * amdgpu: update raven2 firmware for 20.10
+  * amdgpu: update renoir firmware for 20.10
+  * amdgpu: update vega10 firmware for 20.10
+  * amdgpu: update vega12 firmware for 20.10
+  * amdgpu: update vega20 firmware for 20.10
+
+  [ Vishal Kulkarni ]
+  * cxgb4: Update T6 config file
+
+  [ Max Chou ]
+  * rtl_bt: Update RTL8822C BT FW to 0x0999_3AA1
+
+  [ Hans de Goede ]
+  * Add symlink for Dell XPS 15 9550 Broadcom Bluetooth patch-ram file
+
+  [ Josh Boyer ]
+  * Use Link function for brcmfmac43362-sdio.lemaker,bananapro.txt
+
+  [ Amit K Bag ]
+  * linux-firmware: Update firmware file for Intel Bluetooth 9260
+  * linux-firmware: Update firmware file for Intel Bluetooth 9560
+  * linux-firmware: Update firmware file for Intel Bluetooth AX201
+  * linux-firmware: Update firmware file for Intel Bluetooth AX200
+
+  [ Lorenzo Bianconi ]
+  * linux-firmware: add rebb firmware for mt7663
+
+  [ Christian Hewitt ]
+  * QCA: Add Bluetooth firmware for QCA9377
+
+  [ Ryder Lee ]
+  * linux-firmware: add firmware for MT7915E
+
+  [ Yan-Hsuan Chuang ]
+  * rtw88: update firmware information and README
+
+  [ Luca Coelho ]
+  * iwlwifi: update 8265 FW
+  * iwlwifi: update FWs to core47-142 release
+
+  [ Yan-Hsuan Chuang ]
+  * rtw88: RTL8821C: add firmware file v24.5
+
+  [ Luca Coelho ]
+  * iwlwifi: update and add new FWs from core50-70 and core52-81 releases
+
+  [ Charles (Chas) Williams ]
+  * Update repository and update whitelist (Bugfix: VRVDR-51479)
+  * Update firmware whitelist (Bugfix: VRVDR-51479)
+
+ -- Charles (Chas) Williams <ciwillia@vyatta.att-mail.com>  Mon, 22 Mar 2021 10:15:29 -0400
+
 linux-firmware (1.57) unstable; urgency=medium
 
   * DANOS Import master
